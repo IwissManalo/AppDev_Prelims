@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'el-messiri': ['"El Messiri"', 'Arial', 'Helvetica', 'sans-serif'],
+      },
     },
   },
   plugins: [],
