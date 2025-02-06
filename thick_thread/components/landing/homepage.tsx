@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function HomePage() {
   return (
@@ -9,8 +10,9 @@ export default function HomePage() {
         <p className="text-lg" style={{ fontFamily: 'Myriad, sans-serif' }}>
           where every stitch transforms imagination into art. Whether you're a seasoned stitcher or just starting, our bold designs and high-quality threads bring your creativity to life—one stitch at a time. Explore, create, and craft something unforgettable today!
         </p>
-          <button
-            className="px-4 py-2 text-white rounded"
+        <Link href="/about">
+          <span
+            className="px-4 py-2 text-white rounded cursor-pointer"
             style={{ backgroundColor: '#DC6B19', transition: 'background-color 0.3s ease, color 0.3s ease' }}
             onMouseEnter={(e) => {
               e.currentTarget.style.backgroundColor = '#F7C566';
@@ -20,9 +22,10 @@ export default function HomePage() {
               e.currentTarget.style.backgroundColor = '#DC6B19';
               e.currentTarget.style.color = '#ffffff';
             }}
-            >
+          >
             Get to Know Us
-          </button>
+          </span>
+        </Link>
       </main>
       <div className="flex items-center w-1/2 p-4">
         <Image src="/TTlogo.png" alt="TT Logo" width={500} height={300} />
