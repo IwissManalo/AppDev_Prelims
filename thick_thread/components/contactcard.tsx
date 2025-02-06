@@ -5,7 +5,7 @@ export default function ContactCard() {
     <section className="text-gray-600 body-font bg-gray-100" id="contactUs">
       <div className="w-full mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-12">
-          <form className="md:col-span-8 p-10" style={{ backgroundColor: '#8b0000' }}>
+          <form className="md:col-span-8 pt-10 pl-10" style={{ backgroundColor: '#8b0000' }}>
             <div className="flex flex-wrap -mx-3 mb-6">
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label
@@ -64,6 +64,7 @@ export default function ContactCard() {
                 <textarea
                   className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   placeholder="Enter your message here"
+                  style={{ width: '100%', height: '120px' }}
                 ></textarea>
               </div>
               <div className="flex justify-between w-full px-3">
@@ -88,19 +89,21 @@ export default function ContactCard() {
             <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight">
             <span>Contact Us</span>
             </h3>
-            <p className="mt-4 leading-7 text-gray-200">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s.
+            <p className="mt-4 leading-7 text-gray-200" style={{ fontFamily: 'Myriad, sans-serif' }}>
+            Have a question, custom request, or just want to say hello? We’d love to hear from you! Whether you need help with an order, stitching advice, or collaboration inquiries, we’re here to assist.
             </p>
 
             <div className="flex items-center mt-5">
-              <span className="text-sm">Las Pinas</span>
+              <span className="text-sm">Facebook: Thick Thread PH</span>
             </div>
             <div className="flex items-center mt-5">
-              <span className="text-sm">+63 917 894 0784</span>
+              <span className="text-sm">Instagram: @ThickThread</span>
             </div>
             <div className="flex items-center mt-5">
-              <span className="text-sm">davebalanmercado@gmail.com</span>
+              <span className="text-sm">Pinterest: Thick Thread PH</span>
+            </div>
+            <div className="flex items-center mt-5">
+              <span className="text-sm">thickthread@gmail.com</span>
             </div>
           </div>
         </div>
