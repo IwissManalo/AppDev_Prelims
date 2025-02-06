@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { El_Messiri, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const elMessiri = El_Messiri({
+  variable: "--font-el-messiri",
   subsets: ["latin"],
 });
 
@@ -13,9 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Thick Thread",
+  title: "Thick Thread PH",
   description: "Where Creativity Meets Thread",
 };
+
 
 export default function RootLayout({
   children,
@@ -23,10 +25,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={`${elMessiri.variable} ${geistMono.variable}`}>
+      <head>
+        <link rel="icon" href="/TTLogo.png" type="image/png" />
+      </head>
+      <body className="font-el-messiri">
+      <NavBar />
         {children}
       </body>
     </html>
