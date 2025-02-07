@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="py-4 px-3" style={{ backgroundColor: '#DC6B19', color: '#FFF8DC' }}>
+    <footer className="py-4 px-3 shadow-md shadow-t-lg" style={{ backgroundColor: '#DC6B19', color: '#FFF8DC' }}>
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full md:w-auto text-left">
           <p className="text-xs md:text-sm" style={{ color: '#FFF8DC' }}>
