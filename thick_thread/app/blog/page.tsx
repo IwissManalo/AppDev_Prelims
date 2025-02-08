@@ -6,7 +6,7 @@ export default function Blog() {
     <div>
       <div className="container mx-auto p-5">
         <h1 className="text-4xl font-bold mt-5 text-center mt-">Our Blog</h1>
-        <p className="text-center text-lg mb-5">Welcome to our blog! Here you'll find a variety of articles and tutorials to help you with your projects.</p>
+        <p className="text-center text-lg mb-5">Welcome to Thick Thread Blog! Here you'll find variety of articles and tutorials to help you with your threadworks.</p>
         <div className="space-y-8">
           <div className="flex flex-col md:flex-row w-full h-80 md:h-96 p-4">
             <div className="mr-10 text-right md:w-1/3 p-4 flex flex-col justify-center">
