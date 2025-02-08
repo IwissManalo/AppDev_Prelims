@@ -10,7 +10,7 @@ export default function GallerySection() {
         
         <div className="md:w-1/3 text-right md:pr-10">
           <h2 className="text-3xl font-bold text-[#8B0000] underline mb-4">Gallery</h2>
-          <p className="text-[#DC6B19] text-lg leading-relaxed mb-4">
+          <p className="text-[#DC6B19] text-lg leading-relaxed mb-4" style={{ fontFamily: 'Myriad, sans-serif' }}>
             where every stitch transforms imagination into art. where every stitch transforms imagination into art. 
             where every stitch transforms imagination into art. where everywhere every stitch transforms imagination into art
           </p>
